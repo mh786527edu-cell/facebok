@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+
+<html>
+	
+	<head>
+		
+		<title>
+			Facebook - Social Media Platform
+		</title>
+		<link rel="stylesheet" href="css/style.css" >
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<link rel="preconnect" href="https://fonts.googleapis.com">
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+		<link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap" rel="stylesheet">
+		<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined" rel="stylesheet" >
+	
+	</head>
+	
+	<body>
+<!-- Header is started. --!>
+	
+	<!-- Logo is started. --!>
+		
+		<div class="logo" >
+			<a href="index.html">
+				<img src="images/logo.png" width="200px" >
+			</a>
+		</div>
+	
+	<!-- Logo is ended. --!>
+	
+	<!-- Navigation is started. --!>
+		<div class="extra">
+			<div class="navigation" id="navigation">
+				<span class="material-symbols-outlined close" onclick="hidemenu()">
+					close
+				</span>
+				<ul>
+					<li>
+						<a href="index.html">
+							Home
+						</a>
+					</li>
+					<li>
+						<a href="blog.html">
+							Blog
+						</a>
+					</li>
+					<li>
+						<a href="about.html">
+							About Us
+						</a>
+					</li>
+					<li>
+						<a href="contact.html">
+							Contact Us
+						</a>
+					</li>
+					<li>
+						<a href="sevices.html">
+							Services
+						</a>
+					</li>
+					<li>
+						<a href="products.html">
+							Products
+						</a>
+					</li>
+					<li>
+						<a href="team.html">
+							Team
+						</a>
+					</li>
+					<li>
+						<a href="apps.html">
+							Applications
+						</a>
+					</li>
+					<li>
+						<a href="meta.html">
+							Meta Corporation
+						</a>
+					</li>
+				</ul>
+			</div>
+			<span class="material-symbols-outlined menu" onclick="showmenu()">
+				menu
+			</span>
+		</div>
+	<!-- Navigation is ended. --!>
+	
+<!-- Header is ended. --!>
+
+<!-- Main Web Site is started. --!>
+
+	<!-- Banner is started. --!>
+		
+		<div class="banner">
+			<div class="banner_text">
+				<h1>
+					Social Media Platform
+				</h1>
+				<p>
+					Start the chatting with your friends by clicking this button:
+				</p>
+				<a href="#" class="banner_button" >Chat</a>
+			</div>
+		</div>
+	
+	<!-- Banner is ended. --!>
+
+<!-- Main Web Site is ended. --!>
+	
+	</body>
+	
+<!-- Java Script is started. --!>
+
+	<script>
+		
+		var navigation = document.getElementById("navigation");
+		function showmenu() {
+			navigation.style.left = "0px";
+		}
+		function hidemenu() {
+			navigation.style.left = "-200px";
+		}
+	
+	</script>
+
+<!-- Java Script is ended. --!>	
+	
+</html>
